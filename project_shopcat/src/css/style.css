@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.first-section {
+  position: relative;
+  padding-top: 40px;
+  margin-bottom: 90px;
+}
+.first-section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-section__header__logo {
+  width: 146px;
+  height: 48px;
+}
+.first-section__header__signBox {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.first-section__header__signBox__img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.625em;
+}
+.first-section hr {
+  border: 1px solid #808080;
+  margin-bottom: 20px;
+}
+.first-section__find {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.first-section__find__location {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3.5em;
+  background: #FFAE5D;
+  border-radius: 1.25em;
+  padding: 1em;
+}
+.first-section__find__location__img {
+  width: 1.375em;
+  height: 1.625em;
+  margin-right: 0.625em;
+}
+.first-section__find__search {
+  font-size: 16px;
+  font-weight: 500;
+  height: 3.5em;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 1.25em;
+  padding: 1em;
+}
+.first-section__find__search input {
+  outline: none;
+  border: none;
+  min-width: 37.6em;
+  font-family: "Poppins";
+}
+.first-section__find__search img {
+  width: 1.125em;
+  height: 1.125em;
+}
+
+.second-section {
+  position: relative;
+  display: flex;
+  margin-bottom: 60px;
+}
+.second-section__slogan {
+  display: flex;
+  align-items: center;
+  height: 630px;
+  margin-right: 138px;
+}
+.second-section__slogan__text {
+  font-weight: 300;
+  font-size: 96px;
+  max-width: 6.7em;
+  line-height: 1.1em;
+}
+.second-section__slogan__text span {
+  color: #FFAE5D;
+  font-weight: 700;
+}
+.second-section__slogan__text span:last-child {
+  color: black;
+}
+.second-section__hotdeals {
+  width: 878px;
+}
+.second-section__hotdeals__goods {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.third-section {
+  margin-bottom: 60px;
+}
+.third-section__slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-section__slider__img {
+  width: 100%;
+}
+
+.fourth-section {
+  margin-bottom: 120px;
+}
+.fourth-section__hotdeals {
+  margin-bottom: 80px;
+}
+.fourth-section__searchedItems {
+  margin-bottom: 80px;
+}
+.fourth-section__special-offer {
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-section__special-offer_img {
+  width: 100%;
+}
+.fourth-section__offerBox {
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 31.25em;
+  position: absolute;
+  left: 16.125em;
+  top: 5.75em;
+}
+.fourth-section__offerBox__title {
+  position: absolute;
+  top: 0;
+  left: 20em;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #A29781;
+}
+.fourth-section__offerBox__text {
+  position: absolute;
+  top: 7.875em;
+  left: 11.4em;
+  text-decoration: none;
+  color: #606060;
+}
+.fourth-section__offerBox__img {
+  width: 100%;
+}
+.fourth-section__furniture {
+  margin-bottom: 80px;
+}
+.fourth-section__goods {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fourth-section__bigDeal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-section {
+  background: #404040;
+  padding-right: 0;
+  padding-left: 0;
+}
+.last-section__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+.last-section__footer__logo {
+  width: 145px;
+}
+.last-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last-section__nav-container li {
+  font-weight: 500;
+  font-size: 16px;
+}
+.last-section__nav-container li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.last-section__countryBox {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.last-section__countryBox__countryImg {
+  margin-right: 0.625em;
+  width: 2.125em;
+}
+.last-section__countryBox__rowImg {
+  width: 0.6875em;
+}
+.last-section__countryBox p {
+  color: white;
+  margin-right: 0.625em;
+}
+
+.header__text {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-menu__list-item {
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: #606060;
+}
+
+.title__text {
+  font-weight: 600;
+  font-size: 24px;
+}
+.title__border {
+  margin: 0;
+  margin-top: 0.4em;
+  margin-bottom: 0.83em;
+  border: 2px dashed #FFAE5D;
+}
+
+.good {
+  max-width: 16em;
+  padding: 0.625em;
+  font-weight: 400;
+  font-size: 16px;
+}
+.good__img {
+  width: 14.6875em;
+  height: 14.6875em;
+  margin-bottom: 0.3125em;
+}
+.good__description {
+  font-weight: 500;
+  margin-bottom: 0.3125em;
+}
+.good__cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.good__sale {
+  color: #FF3232;
+}
+
+.bigDeal__item {
+  padding: 0.4em;
+  border: 1.5px solid rgba(129, 129, 129, 0.5);
+  border-radius: 0.83em;
+  max-width: 30.83em;
+  max-height: 16em;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.bigDeal__item__img {
+  margin-right: 2.5em;
+  width: 15.2em;
+  height: 15.2em;
+}
+.bigDeal__item__description {
+  margin-bottom: 0.83em;
+}
+.bigDeal__item__price {
+  margin-bottom: 0.83em;
+  font-weight: 400;
+  font-size: 0.6em;
+}
+.bigDeal__item__price span {
+  font-size: 2em;
+  font-weight: 600;
+}
+.bigDeal__item__rating {
+  display: flex;
+  align-items: center;
+}
+.bigDeal__item__rating {
+  font-weight: 400;
+  font-size: 0.6em;
+  color: #FFAE5D;
+}
+.bigDeal__item__starBox {
+  margin-right: 0.625em;
+}
+.bigDeal__item__starBox img {
+  width: 2.45em;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1510px) {
+  .container {
+    width: 1250px;
+  }
+  .second-section__slogan__text {
+    font-size: 77px;
+  }
+  .second-section__hotdeals {
+    width: 723px;
+  }
+  .good {
+    font-size: 14px;
+  }
+  .fourth-section__offerBox {
+    font-size: 19px;
+  }
+  .fourth-section__goods img {
+    width: 200px;
+    height: 200px;
+  }
+  .bigDeal__item {
+    font-size: 19px;
+  }
+  .nav-menu__list-item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1304px) {
+  .container {
+    width: 1000px;
+  }
+  .first-section {
+    margin-bottom: 41px;
+  }
+  .first-section__header__logo {
+    width: 127px;
+  }
+  .first-section__header__signBox {
+    font-size: 14px;
+  }
+  .first-section__find__location {
+    font-size: 14px;
+  }
+  .first-section__find__location__img {
+    width: 1.375em;
+    height: 1.625em;
+    margin-right: 0.625em;
+  }
+  .first-section__find__search {
+    font-size: 14px;
+  }
+  .second-section__slogan__text {
+    font-size: 67px;
+  }
+  .second-section__hotdeals {
+    width: 557px;
+  }
+  .good {
+    font-size: 11px;
+  }
+  .fourth-section {
+    margin-bottom: 100px;
+  }
+  .fourth-section__offerBox {
+    font-size: 15.5px;
+  }
+  .fourth-section__goods img {
+    width: 150px;
+    height: 150px;
+  }
+  .bigDeal__item {
+    font-size: 15px;
+  }
+  .nav-menu__list-item {
+    font-size: 12px;
+  }
+  .title__text {
+    font-size: 20px;
+  }
+  .title__border {
+    margin-bottom: 1em;
+    margin-top: 0.7em;
+  }
+  .last-section__footer {
+    height: 160px;
+  }
+  .last-section__footer__logo {
+    width: 119px;
+  }
+  .last-section__nav-container li {
+    font-size: 13px;
+  }
+  .last-section__countryBox {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1020px) {
+  .container {
+    width: 750px;
+  }
+  .first-section {
+    margin-bottom: 41px;
+  }
+  .first-section__header__logo {
+    width: 107px;
+  }
+  .first-section__header__signBox {
+    font-size: 12px;
+  }
+  .first-section__find__location {
+    font-size: 12px;
+  }
+  .first-section__find__search {
+    font-size: 12px;
+  }
+  .second-section {
+    display: block;
+  }
+  .second-section__slogan {
+    height: 316px;
+    margin-bottom: 40px;
+  }
+  .second-section__slogan__text {
+    font-size: 67px;
+  }
+  .second-section__hotdeals {
+    width: 96%;
+  }
+  .fourth-section {
+    margin-bottom: 65px;
+  }
+  .fourth-section__offerBox {
+    font-size: 11.5px;
+  }
+  .fourth-section__goods img {
+    width: 130px;
+    height: 130px;
+  }
+  .fourth-section__furniture {
+    margin-bottom: 30px;
+  }
+  .bigDeal__item {
+    font-size: 12px;
+    max-width: 30em;
+  }
+  .hamburger {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    width: 30px;
+    display: block;
+    height: 14px;
+    z-index: 30;
+  }
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  .hamburger_active {
+    position: fixed;
+    top: 15px;
+    right: 40px;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .nav-menu {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    background: #FFAE5D;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  .nav-menu_active {
+    right: 0;
+  }
+}
+@media (max-width: 822px) {
+  .container {
+    width: 560px;
+  }
+  .first-section {
+    margin-bottom: 41px;
+  }
+  .first-section__header {
+    height: 27px;
+  }
+  .first-section__header__logo {
+    width: 73px;
+  }
+  .first-section__header__signBox {
+    font-size: 12px;
+  }
+  .first-section__find__location {
+    font-size: 10px;
+  }
+  .first-section__find__search {
+    font-size: 10px;
+  }
+  .first-section hr {
+    margin-bottom: 10px;
+  }
+  .first-section .second-section__slogan {
+    height: 316px;
+    margin-bottom: 40px;
+  }
+  .first-section .second-section__slogan__text {
+    font-size: 67px;
+  }
+  .good {
+    font-size: 14px;
+  }
+  .fourth-section__offerBox {
+    font-size: 10.5px;
+    left: 10.125em;
+    top: 3.75em;
+  }
+  .fourth-section__goods img {
+    width: 200px;
+    height: 200px;
+  }
+  .fourth-section__bigDeal {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .bigDeal__item {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    width: 320px;
+  }
+  .second-section__slogan {
+    display: block;
+    height: 125px;
+  }
+  .second-section__slogan__text {
+    font-size: 30px;
+  }
+  .second-section__hotdeals__goods {
+    justify-content: center;
+  }
+  .first-section__header__logo {
+    width: 90px;
+  }
+  .first-section__header__signBox {
+    font-size: 10px;
+  }
+  .first-section__find {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .first-section__find__location {
+    font-size: 7px;
+    margin-bottom: 10px;
+  }
+  .first-section__find__search {
+    font-size: 7px;
+  }
+  .title__text {
+    font-size: 14px;
+  }
+  .good {
+    font-size: 12px;
+  }
+  .third-section {
+    display: none;
+  }
+  .fourth-section__goods {
+    justify-content: center;
+  }
+  .fourth-section__special-offer {
+    display: none;
+  }
+  .bigDeal__item {
+    font-size: 10px;
+  }
+  .last-section__footer {
+    height: 160px;
+  }
+  .last-section__footer__logo {
+    width: 80px;
+  }
+  .last-section__nav-container li {
+    font-size: 8px;
+  }
+  .last-section__countryBox {
+    font-size: 10px;
+  }
+  .nav-menu__list-item {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */

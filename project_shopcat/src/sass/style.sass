@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+html
+    font-family: "Poppins"
+    font-weight: 400
+
+*
+    box-sizing: border-box
+
+.container
+    max-width: 1520px
+    margin: 0 auto
+    padding-right: 10px
+    padding-left: 10px
+
+.first-section
+    position: relative
+    padding-top: 40px
+    margin-bottom: 90px
+    &__header
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &__logo
+            width: 146px
+            height: 48px
+        &__signBox
+            font-size: 16px
+            display: flex
+            flex-direction: row
+            align-items: center
+            &__img
+                width: 1.5em
+                height: 1.5em
+                margin-right: 0.625em
+    hr
+        border: 1px solid #808080
+        margin-bottom: 20px
+    &__find
+        position: relative
+        display: flex
+        justify-content: space-between
+        margin-bottom: 20px
+        align-items: center
+        &__location
+            font-size: 16px
+            font-weight: 500
+            display: flex
+            flex-direction: row
+            align-items: center
+            height: 3.5em
+            background: #FFAE5D
+            border-radius: 1.25em
+            padding: 1em
+            &__img
+                width: 1.375em
+                height: 1.625em
+                margin-right: 0.625em
+        &__search
+            font-size: 16px
+            font-weight: 500
+            height: 3.5em
+            border: 1px solid rgba(128, 128, 128, 0.5)
+            border-radius: 1.25em
+            padding: 1em
+            input
+                outline: none
+                border: none
+                min-width: 37.6em
+                font-family: 'Poppins'
+            img
+                width: 1.125em
+                height: 1.125em
+
+.second-section
+    position: relative
+    display: flex
+    margin-bottom: 60px
+    &__slogan
+        display: flex
+        align-items: center
+        height: 630px
+        margin-right: 138px
+        &__text
+            font-weight: 300
+            font-size: 96px
+            max-width: 6.7em
+            line-height: 1.1em
+            span
+                color: #FFAE5D
+                font-weight: 700
+                &:last-child
+                    color: black
+    &__hotdeals
+        width: 878px
+        &__goods
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-between
+
+.third-section
+    margin-bottom: 60px
+    &__slider
+        display: flex
+        align-items: center
+        justify-content: center
+        &__img
+            width: 100%
+        
+.fourth-section
+    margin-bottom: 120px
+    &__hotdeals
+        margin-bottom: 80px
+    &__searchedItems
+        margin-bottom: 80px
+    &__special-offer
+        margin-bottom: 50px
+        position: relative
+        display: flex
+        align-items: center
+        justify-content: center
+        &_img
+            width: 100%
+    &__offerBox
+        font-weight: 500
+        font-size: 24px
+        max-width: 31.25em
+        position: absolute
+        left: 16.125em
+        top: 5.75em
+        &__title
+            position: absolute
+            top: 0
+            left: 20em
+            font-weight: 700
+            font-size: 1.1em
+            color: #A29781
+        &__text
+            position: absolute
+            top: 7.875em
+            left: 11.4em
+            text-decoration: none
+            color: #606060
+        &__img
+            width: 100%
+    &__furniture
+        margin-bottom: 80px
+    &__goods
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+    &__bigDeal
+        display: flex
+        justify-content: space-between
+        
+.last-section
+    background: #404040
+    padding-right: 0
+    padding-left: 0
+    &__footer
+        display: flex
+        justify-content: space-around
+        align-items: center
+        height: 200px
+        &__logo
+            width: 145px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        li
+            font-weight: 500
+            font-size: 16px
+            a
+                text-decoration: none
+                color: white
+                margin-right: 10px
+    &__countryBox
+        display: flex
+        align-items: center
+        font-size: 16px
+        font-weight: 500
+        &__countryImg
+            margin-right: 0.625em
+            width: 2.125em
+        &__rowImg
+            width: 0.6875em
+        p
+            color: white
+            margin-right: 0.625em
+
+.header__text
+    color: #000
+    text-decoration: none
+    font-weight: 500
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+    &__list-item
+        font-size: 16px
+        font-weight: 500
+        a
+            text-decoration: none
+            color: #606060
+
+.title
+    &__text
+        font-weight: 600
+        font-size: 24px
+    &__border
+        margin: 0
+        margin-top: 0.4em
+        margin-bottom: 0.83em
+        border: 2px dashed #FFAE5D
+
+.good
+    max-width: 16em
+    padding: 0.625em
+    font-weight: 400
+    font-size: 16px
+    &__img
+        width: 14.6875em
+        height: 14.6875em
+        margin-bottom: 0.3125em
+    &__description
+        font-weight: 500
+        margin-bottom: 0.3125em
+    &__cost
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+    &__sale
+        color: #FF3232
+
+.bigDeal__item
+    padding: 0.4em
+    border: 1.5px solid rgba(129, 129, 129, 0.5)
+    border-radius: 0.83em
+    max-width: 30.83em
+    max-height: 16em
+    display: flex
+    align-items: center
+    font-size: 24px
+    font-weight: 600
+    &__img
+        margin-right: 2.5em
+        width: 15.2em
+        height: 15.2em
+    &__description
+        margin-bottom: 0.83em
+    &__price
+        margin-bottom: 0.83em
+        font-weight: 400
+        font-size: 0.6em
+        span
+            font-size: 2em
+            font-weight: 600
+    &__rating
+        display: flex
+        align-items: center
+    &__rating
+        font-weight: 400
+        font-size: 0.6em
+        color: #FFAE5D
+    &__starBox
+        margin-right: 0.625em
+        img
+            width: 2.45em
+
+.hamburger
+    display: none
+
+@media (max-width: 1510px)
+    .container
+        width: 1250px
+    .second-section
+        &__slogan
+            &__text
+                font-size: 77px
+        &__hotdeals
+            width: 723px
+    .good
+        font-size: 14px
+    .fourth-section
+        &__offerBox
+            font-size: 19px
+        &__goods
+            img
+                width: 200px
+                height: 200px
+    .bigDeal__item
+        font-size: 19px
+    .nav-menu
+        &__list-item
+            font-size: 14px
+
+@media (max-width: 1304px)
+    .container
+        width: 1000px
+    .first-section
+        margin-bottom: 41px
+        &__header
+            &__logo
+                width: 127px
+            &__signBox
+                font-size: 14px
+        &__find
+            &__location
+                font-size: 14px
+                &__img
+                    width: 1.375em
+                    height: 1.625em
+                    margin-right: 0.625em
+            &__search
+                font-size: 14px
+    .second-section
+        &__slogan
+            &__text
+                font-size: 67px
+        &__hotdeals
+            width: 557px
+    .good
+        font-size: 11px
+    .fourth-section
+        margin-bottom: 100px
+        &__offerBox
+            font-size: 15.5px
+        &__goods
+            img
+                width: 150px
+                height: 150px
+    .bigDeal__item
+        font-size: 15px
+    .nav-menu
+        &__list-item
+            font-size: 12px
+    .title
+        &__text
+            font-size: 20px
+        &__border
+            margin-bottom: 1em
+            margin-top: 0.7em
+    .last-section
+        &__footer
+            height: 160px
+            &__logo
+                width: 119px
+        &__nav-container
+            li
+                font-size: 13px
+        &__countryBox
+            font-size: 13px
+
+@media (max-width: 1020px)
+    .container
+        width: 750px
+    .first-section
+        margin-bottom: 41px
+        &__header
+            &__logo
+                width: 107px
+            &__signBox
+                font-size: 12px
+        &__find
+            &__location
+                font-size: 12px
+            &__search
+                font-size: 12px
+    .second-section
+        display: block
+        &__slogan
+            height: 316px
+            margin-bottom: 40px
+            
+            &__text
+                font-size: 67px
+        &__hotdeals
+            width: 96%
+    .fourth-section
+        margin-bottom: 65px
+        &__offerBox
+            font-size: 11.5px
+        &__goods
+            img
+                width: 130px
+                height: 130px
+        &__furniture
+            margin-bottom: 30px
+    .bigDeal__item
+        font-size: 12px
+        max-width: 30em
+    .hamburger
+        position: absolute
+        top: 15px
+        right: 40px
+        width: 30px
+        display: block
+        height: 14px
+        z-index: 30
+        span
+            height: 2px
+            width: 100%
+            display: block
+            background: black
+            margin-bottom: 4px
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0px
+    .hamburger_active
+        position: fixed
+        top: 15px
+        right: 40px
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+    .nav-menu
+        width: 50%
+        position: fixed
+        top: 0
+        right: -100%
+        height: 100vh
+        background: #FFAE5D
+        z-index: 20
+        transition: 0.6s all
+        &__list
+            flex-direction: column
+            justify-content: space-evenly
+            align-items: center
+            height: 100%
+        &__list-item
+            margin-right: 0
+            font-size: 20px
+    .nav-menu_active
+        right: 0
+
+@media (max-width: 822px)
+    .container
+        width: 560px
+    .first-section
+        margin-bottom: 41px
+        &__header
+            height: 27px
+            &__logo
+                width: 73px
+            &__signBox
+                font-size: 12px
+        &__find
+            &__location
+                font-size: 10px
+            &__search
+                font-size: 10px
+        hr
+            margin-bottom: 10px
+        .second-section
+            &__slogan
+                height: 316px
+                margin-bottom: 40px
+                &__text
+                    font-size: 67px            
+    .good
+        font-size: 14px
+    .fourth-section
+        &__offerBox
+            font-size: 10.5px
+            left: 10.125em
+            top: 3.75em
+        &__goods
+            img
+                width: 200px
+                height: 200px
+        &__bigDeal
+            justify-content: center
+            flex-wrap: wrap
+
+    .bigDeal__item
+        font-size: 15px
+        margin-bottom: 20px
+
+@media (max-width: 580px)
+    .container
+        width: 320px
+    
+    .second-section
+        &__slogan
+            display: block
+            height: 125px
+            &__text
+                font-size: 30px
+        &__hotdeals
+            &__goods
+                justify-content: center
+    .first-section
+        &__header
+            &__logo
+                width: 90px
+            &__signBox
+                font-size: 10px
+        &__find
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            &__location
+                font-size: 7px
+                margin-bottom: 10px
+            &__search
+                font-size: 7px     
+    .title
+        &__text
+            font-size: 14px   
+    .good
+        font-size: 12px  
+    .third-section
+        display: none
+    .fourth-section
+        &__goods
+            justify-content: center
+        &__special-offer
+            display: none
+    .bigDeal__item
+        font-size: 10px
+    .last-section
+        &__footer
+            height: 160px
+            &__logo
+                width: 80px
+        &__nav-container
+            li
+                font-size: 8px
+        &__countryBox
+            font-size: 10px
+    .nav-menu
+        &__list-item
+            font-size: 12px
